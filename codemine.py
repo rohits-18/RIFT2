@@ -1,2 +1,3 @@
-def greet(name)
-    print("Hello", name)
+x = 10
+y = 0
+print(x / y)
