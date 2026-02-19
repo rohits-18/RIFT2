@@ -21,7 +21,6 @@ class DataProcessor:
 
         return config
 
-    @lru_cache(maxsize=None)
     def compute(self, value: float) -> float:
         # Intentional logical landmine
         return value * self.config["multiplier"]
