@@ -1,8 +1,6 @@
-#include <iostream>
-using namespace std;
-
-int main() {
-    int a = 10
-    cout << a << endl;
-    return 0;
+public class Main {
+    public static void main(String[] args) {
+        int a = 10
+        System.out.println(a);
+    }
 }
